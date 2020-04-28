@@ -1,38 +1,72 @@
-.App {
+.corAzul {
+  background-color: #007bff;
+  border: 1px solid rgba(0,123,255,.25);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.corAzul:hover {
+  color: #f8f9fa;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.corAzul:focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+.corVerde {
+  background-color: #28a745;
+  border: 1px solid rgba(0,123,255,.25);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.corVerde:hover {
+  color: #f8f9fa;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.corPadrao {
+  background-color: rgba(121, 121, 121, 0.329);
+  display: inline-block;
+  font-weight: 400;
   text-align: center;
+  vertical-align: middle;
+  border: 2px solid #3e2965;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.corPadrao:hover {
+  color: #3e2965;
+  background-color: #f8f9fa;
+  border-color: #3e2965;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-dark {
+  background-color: #3e2965!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bi {
+  color: #3e2965;
 }
 
-.App-link {
-  color: #61dafb;
+.corVerde .bi {
+  color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.corAzul .bi {
+  color: #ffffff;
 }
